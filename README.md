@@ -41,7 +41,7 @@ Ou rode diretamente na IDE clicando em Run → GestaoDeAcademiaApplication
 
 ## A aplicação utiliza o banco H2 em modo arquivo, criado automaticamente na pasta /data.
 
-## Após iniciar o projeto, acesse a documentação interativa pelo Swagger UI:
+### Após iniciar o projeto, acesse a documentação interativa pelo Swagger UI:
 
 http://localhost:8080/swagger-ui.html
 
