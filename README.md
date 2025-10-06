@@ -18,6 +18,16 @@ API REST desenvolvida Spring Boot 3 para gerenciar uma academia, permitindo o co
 
 ## Estrutura do Projeto:
 
+Arqutetura em camadas por domínio funcional.
+
+### Descrição das Camadas:
+
+- Controller: Define os endpoints REST da aplicação.
+- Service: Contém as regras de negócio e validações.
+- Repository: Interfaces que estendem JpaRepository, responsáveis pela persistência de dados.
+- Dto (Data Transfer Object): Objetos usados para transportar dados entre as camadas sem expor as entidades diretamente.
+- Entity (Ex: Aluno, Plano, Treino...): Representam as tabelas do banco de dados.
+
 ---
 
 ## Instruções para Rodar o Projeto:
@@ -77,4 +87,5 @@ O sistema foi projetado para gerenciar de forma eficiente os principais aspectos
 ## Autora
 
 Marya Laura Menezes
+
 maryalaura1307@gmail.com
